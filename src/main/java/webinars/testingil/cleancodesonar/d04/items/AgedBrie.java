@@ -13,10 +13,8 @@ public class AgedBrie extends StoredItem {
             increase_quality();
         }
         decrease_sell_in();
-        if (item.quality < 50) {
-            if (item.sellIn < 0) {
-                increase_quality();
-            }
+        if (item.quality < 50 && item.sellIn < 0) {
+            increase_quality();
         }
     }
 }
