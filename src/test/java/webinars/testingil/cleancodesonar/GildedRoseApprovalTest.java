@@ -3,11 +3,10 @@ package webinars.testingil.cleancodesonar;
 import org.approvaltests.reporters.DiffReporter;
 import org.approvaltests.reporters.UseReporter;
 import org.junit.jupiter.api.Test;
-import webinars.testingil.cleancodesonar.after.GildedRose;
-import webinars.testingil.cleancodesonar.after.Item;
+import webinars.testingil.cleancodesonar.d02.GildedRose;
+import webinars.testingil.cleancodesonar.d02.Item;
 
 import java.util.Arrays;
-import java.util.List;
 import java.util.stream.IntStream;
 
 import static java.lang.String.valueOf;

@@ -1,4 +1,4 @@
-package webinars.testingil.cleancodesonar.after;
+package webinars.testingil.cleancodesonar.d03;
 
 public class GildedRose {
     Item[] items;
