@@ -3,8 +3,8 @@ package webinars.testingil.cleancodesonar;
 import org.approvaltests.reporters.DiffReporter;
 import org.approvaltests.reporters.UseReporter;
 import org.junit.jupiter.api.Test;
-import webinars.testingil.cleancodesonar.d02.GildedRose;
-import webinars.testingil.cleancodesonar.d02.Item;
+import webinars.testingil.cleancodesonar.d04.GildedRose;
+import webinars.testingil.cleancodesonar.d04.Item;
 
 import java.util.Arrays;
 import java.util.stream.IntStream;

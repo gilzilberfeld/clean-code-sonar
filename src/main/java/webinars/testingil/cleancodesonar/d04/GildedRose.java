@@ -1,8 +1,8 @@
-package webinars.testingil.cleancodesonar.d03;
+package webinars.testingil.cleancodesonar.d04;
 
-import webinars.testingil.cleancodesonar.d03.items.AgedBrie;
-import webinars.testingil.cleancodesonar.d03.items.Backstage;
-import webinars.testingil.cleancodesonar.d03.items.DexterityOrElixir;
+import webinars.testingil.cleancodesonar.d04.items.AgedBrie;
+import webinars.testingil.cleancodesonar.d04.items.Backstage;
+import webinars.testingil.cleancodesonar.d04.items.DexterityOrElixir;
 
 public class GildedRose {
     Item[] items;
