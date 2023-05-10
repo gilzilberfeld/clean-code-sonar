@@ -26,8 +26,7 @@ public class GildedRose {
             case "Backstage passes to a TAFKAL80ETC concert":
                 new Backstage(item).update();
                 break;
-            case "+5 Dexterity Vest":
-            case "Elixir of the Mongoose":
+            case "+5 Dexterity Vest", "Elixir of the Mongoose":
                 new DexterityOrElixir(item).update();
                 break;
         }
