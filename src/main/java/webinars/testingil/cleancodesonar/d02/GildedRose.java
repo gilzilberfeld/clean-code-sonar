@@ -59,33 +59,6 @@ public class GildedRose {
         }
     }
 
-    public void updateBackstagePassesAgain(Item item) {
-        if (item.sellIn < 0) {
-            item.quality = 0;
-        }
-    }
-
-    public void updateAgedBrieAgain(Item item) {
-        if (item.quality < 50) {
-            if (item.sellIn < 0) {
-                increaseQuality(item);
-            }
-        }
-    }
-
-    public void updateBackstagePasses(Item item) {
-        if (item.quality < 50) {
-            increaseQuality(item);
-            if (item.quality < 50) {
-                if (item.sellIn < 11) {
-                    increaseQuality(item);
-                }
-                if (item.sellIn < 6) {
-                    increaseQuality(item);
-                }
-            }
-        }
-    }
 
     public void decreaseSellin(Item item) {
         item.sellIn = item.sellIn - 1;
